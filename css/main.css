@@ -10,6 +10,22 @@ More Info: https://uideck.com/products/helium-ui-kit
     font-weight:normal
 }
 
+.iframe-container {
+  overflow: hidden;
+  /* Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   color: #444;
@@ -3064,8 +3080,38 @@ nav#menu span.fa.fa-bars:hover {
   font-family: "Rubik", sans-serif;
 }
 
+#carousel-area .carousel-item .carousel-caption h4 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 700;
+}
+
 #carousel-area .carousel-item .carousel-caption h3 {
   font-size: 50px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 700;
+}
+
+#carousel-area .carousel-item .carousel-cap {
+  bottom: 15%;
+  right: 10%;
+  left: 10%;
+  text-shadow: 0px 0px 4px #000;
+}
+
+#carousel-area .carousel-item .carousel-cap h5 {
+  color: #fff;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
+#carousel-area .carousel-item .carousel-cap h3 {
+  font-size: 10px;
   margin-bottom: 15px;
   color: #fff;
   font-weight: 700;
@@ -4135,6 +4181,10 @@ figure {
   color: #444;
 }
 
+.project-title h3 {
+  font-size: 5px;
+}
+
 .icons-link {
   position: absolute;
   top: 40%;
@@ -4435,6 +4485,13 @@ ul.nav-tabs li a {
   #carousel-area .carousel-item .carousel-caption h5 {
     margin-bottom: 10px;
   }
+
+  #carousel-area .carousel-item .carousel-cap h3 {
+    font-size: 26px;
+  }
+  #carousel-area .carousel-item .carousel-cap h5 {
+    margin-bottom: 10px;
+  }
   #carousel-area .carousel-item .btn-lg {
     padding: 7px 10px;
     min-width: 150px;
@@ -4521,6 +4578,16 @@ ul.nav-tabs li a {
     font-size: 26px;
   }
   #carousel-area .carousel-item .carousel-caption h5 {
+    margin-bottom: 0px;
+  }
+
+  #carousel-area .carousel-item .carousel-cap {
+    top: 5%;
+  }
+  #carousel-area .carousel-item .carousel-cap h3 {
+    font-size: 26px;
+  }
+  #carousel-area .carousel-item .carousel-cap h5 {
     margin-bottom: 0px;
   }
   #carousel-area .carousel-item .btn-lg {
@@ -4626,6 +4693,18 @@ ul.nav-tabs li a {
     font-size: 14px;
   }
   #carousel-area .carousel-item .carousel-caption h5 {
+    margin-bottom: 3px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  #carousel-area .carousel-item .carousel-cap {
+    top: 2%;
+  }
+  #carousel-area .carousel-item .carousel-cap h3 {
+    font-size: 14px;
+  }
+  #carousel-area .carousel-item .carousel-cap h5 {
     margin-bottom: 3px;
     font-size: 12px;
     line-height: 15px;
