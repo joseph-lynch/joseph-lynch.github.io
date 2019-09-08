@@ -2047,6 +2047,29 @@ nav#menu span.fa.fa-bars:hover {
   color: #fb3958;
 }
 
+
+/* Project */
+#project {
+  padding: 30px 0;
+}
+
+.project h5 {
+  font-size: 18px;
+}
+
+.project h5 a {
+  color: #444;
+}
+
+.project h5 a:hover {
+  color: #EB586F;
+}
+
+.project p{
+  font-size: 17px;
+}
+
+
 /* About */
 #about {
   padding: 30px 0;
@@ -2065,7 +2088,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .about.block img {
-  max-width: 100px;
+  max-width: 125px;
   margin-bottom: 15px;
 }
 
@@ -4171,7 +4194,7 @@ figure {
   color: #444;
 }
 
-#portfolio .project {
+/*#portfolio .project {
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -4183,7 +4206,7 @@ figure {
 
 .project-title h3 {
   font-size: 5px;
-}
+}*/
 
 .icons-link {
   position: absolute;
