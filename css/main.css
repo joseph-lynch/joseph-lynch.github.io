@@ -2047,7 +2047,6 @@ nav#menu span.fa.fa-bars:hover {
   color: #fb3958;
 }
 
-
 /* Project */
 #project {
   padding: 30px 0;
@@ -3245,7 +3244,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .contact-form .form-control {
-  background: transparent;
+  background: coral;
   padding: 15px 25px 15px 50px;
   color: #444;
 }
@@ -3295,6 +3294,11 @@ nav#menu span.fa.fa-bars:hover {
   font-weight: 400;
 }
 
+.contact-info p{
+  font-size: 20px;
+  text-align: center;
+}
+
 .contact-info a i {
   margin-right: 10px;
 }
@@ -3319,15 +3323,21 @@ address i {
 }
 
 .social-links li {
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-links li a {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   color: #444;
-  font-size: 18px;
-  padding-left: 0;
-  margin: 10px 20px 0 0;
+  font-size: 50px;
+
 }
+
 
 .form-control {
   color: #444;

@@ -52,7 +52,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/#about">
+                <a class="nav-link" href="/#robots">
                   Robots
                 </a>
               </li>
@@ -93,7 +93,7 @@
             </a>
           </li>
           <li>
-            <a class="page-scroll" href="/#about">
+            <a class="page-scroll" href="/#robots">
               Robots
             </a>
           </li>
@@ -139,7 +139,7 @@
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
                     <!-- Picture 1920 x 200 - Possibly bump up to 250 -->
-                    <img src="img/portfolio/fish_project_banner.JPG" alt="">
+                    <img src="img/banner/cs_banner_2.JPG" alt="">
                     <div class="carousel-caption">
                       <h4 class="slide-title animated fadeInDown" align="left"><span>ROBOTIC MOTION PLANNING FOR COLD SPRAY ADDITIVE MANUFACTURING</span></h4></div>
                   </div>
@@ -172,7 +172,7 @@
               <strong>Robots Used:</strong>&emsp;Fanuc m710ic</br>
               <strong>Date(s):</strong>&emsp;May 2019 - Present</br></br></p>
 
-              <h5>Documents</h5>
+              <h5>Deliverables</h5>
               <p><a href="#" onclick="window.open('/documents/Joseph_Lynch_Challenge_Project_Concept.pdf')">Project Proposal Document</a> </p>
             </div>
           </div>
@@ -191,7 +191,14 @@
           <div class="col-md-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-xs-12">
               <div class="project block text-left">
-                <p>&emsp;&emsp;</br></br></br></p>
+                <p>&emsp;&emsp;Cold Spray is an additive manufacturing technology in which fine metal powders are sprayed at supersonic speeds
+                    against a substrate leading to the deposition of metal material. Northeastern University’s Cold Spray Additive Manufacturing Lab’s
+                    research on the material properties of cold spray technology has been limited by an inability to deposit material in
+                    complex patterns and accurately quantify how much material is being deposited.</br>
+                    &emsp;&emsp;To address these limitation the CS Lab proposes a project to process a Computer-Aided Design (CAD) model, generate a robotic motion
+                    plan, and monitor how much material is being deposited in real time. This project will require the development of
+                    software and algorithms to leverage existing robotic and sensing equipment in a safe, accurate, and repeatable manner
+                    to make this technology practical for everyday use.</br></br></br></p>
               </div>
             </div>
           </div>
@@ -206,7 +213,15 @@
           <div class="col-md-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-xs-12">
               <div class="project text-left">
-                <p>&emsp;&emsp;</br>
+                <p>&emsp;&emsp;I am partnering with Northeastern University's RIVeR Lab and Cold Spray Lab to lead this project as part of the Gordon Engineering Leadership
+                program. My leadership responsibilties for this project include eliciting project requirements and scope, coordinating with faculty amongst 4 Northeatern
+                departments, and working with several industry vendors. My technical responsibilties include designing the software architecture, researching new algorithms,
+                and implementing these solutions to take this project from concept to deployment.</br>
+                &emsp;&emsp;The video above shows the progress of the project as of August 23, 2019. At this phase of the project we have proven the ability to simultaneously plan
+                motions of the 6-DOF Fanuc robotic arm and the rotary positioner to have the cold spray nozzle follow a specified path. Additionally we are able to leverage
+                the robotic arm and a laser profile sensor to generate a point cloud detailing the surface of the deposited material.</br>
+                &emsp;&emsp;Next steps for the technical development of this project include processing the surface point cloud to estimate the volume of material as well as
+                controlling the motor on the sensor mount to continuously reposition the sensor to follow the path of the nozzle.</br>
                 </p>
               </div>
             </div>
@@ -231,81 +246,59 @@
     <!-- end Abstract section -->
 
     <!-- Contact Form Section Start -->
-    <section id="contact" class="contact-form section-padding">
+    <!-- Contact Form Section Start -->
+    <section id="about" class="contact-form section-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Contact Me</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-8 col-md-6 col-xs-12">
-            <h3 class="title-head text-left">Get in touch</h3>
-            <form class="contact-form" data-toggle="validator">
-              <div class="row">
-                <div class="col-lg-4 col-md-12 col-xs-12">
-                  <div class="form-group">
-                    <i class="contact-icon fa fa-user"></i>
-                    <input type="text" class="form-control" id="name" placeholder="Full Name" required data-error="Please enter your name">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-xs-12">
-                  <div class="form-group">
-                    <i class="contact-icon fa fa-envelope-o"></i>
-                    <input type="email" class="form-control" id="email" placeholder="Email" required data-error="Please enter your email">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-xs-12">
-                  <div class="form-group">
-                    <i class="contact-icon fa fa-pencil-square-o"></i>
-                    <input type="text" class="form-control" id="subject" placeholder="Subject" required data-error="Please enter your Subject">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-xs-12">
-                  <textarea class="form-control" id="message" rows="4" placeholder="Message" required data-error="Please enter your message"></textarea>
-                  <div class="help-block with-errors"></div>
-                  <button type="submit" id="form-submit" class="btn btn-common btn-form-submit">Send Message</button>
-                  <div id="msgSubmit" class="h3 text-center hidden"></div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </form>
-          </div>
-
+        <div class="row contact-info">
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <h4 class="contact-info-title text-left">Contact Information</h4>
-            <div class="contact-info">
-              <address>
-              <i class="lni-map-marker icons cyan-color contact-info-icon"></i>
-              60 Queensberry St. Boston, MA 02215
-            </address>
-              <div class="tel-info">
-                <a href="tel:7818128630"><i class="lni-mobile icons cyan-color contact-info-icon"></i>781 812 8630</a>
-              </div>
-              <a href="mailto:lynch.jose@husky.neu.edu"><i class="lni-envelope icons cyan-color contact-info-icon"></i>lynch.jose@husky.neu.edu</a>
+              <p><strong>Address</strong></p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+                <p><strong>Phone #</strong></p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+              <p><strong>Email</strong></p>
+          </div>
+        </div>
+        <div class="row contact-info">
+          <div class="col-lg-4 col-md-6 col-xs-12">
+              <p>Boston, MA</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+                <p>781 812 8630</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+              <p>lynch.jose@husky.neu.edu</p>
+          </div>
+        </div>
 
-              <ul class="social-links">
-                <li>
-                  <a href="#" class="fa fa-facebook"></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-twitter"></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-instagram"></a>
-                </li>
-                <li>
-                  <a href="#" class="fa fa-linkedin"></a>
-                </li>
-              </ul>
-            </div>
+        <div class="row contact-info">
+          <div class="col-lg-5 col-md-6 col-xs-12">
+          </div>
+          <div class="col-lg-1 col-md-6 col-xs-12">
+            <ul class="social-links">
+              <li>
+                <a href="https://www.github.com/jlynchpitt" target="_blank" class="fab fa-github"></a>
+              </li>
+            </ul>             </div>
+          <div class="col-lg-1 col-md-6 col-xs-12">
+            <ul class="social-links">
+              <li>
+                <a href="https://linkedin.com/jlynchnu" target="_blank" class="fab fa-linkedin"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-5 col-md-6 col-xs-12">
           </div>
         </div>
       </div>
     </section>
+
     <!-- Contact Form Section End -->
 
 	  <!-- Footer Section -->
