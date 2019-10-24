@@ -46,11 +46,11 @@
 
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
-              <li class="nav-item active">
+<!--              <li class="nav-item active">
                 <a class="nav-link" href="/#sliders">
                   Home
                 </a>
-              </li>
+              </li>-->
               <li class="nav-item">
                 <a class="nav-link" href="/#robots">
                   Robots
@@ -188,7 +188,16 @@
           <div class="col-md-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-xs-12">
               <div class="project block text-left">
-                <p>&emsp;&emsp;</br></br></br></p>
+                <p>&emsp;&emsp;The ability for autonomous vehicles to accurately and precisely determine their location is a problem that is
+                crucial to the advancement of that technology. The Ackermann Steering Model can use the wheel encoders and the steering angle
+                of the front wheels to provide another data point that
+                can be combined with accelerometer and GPS data. The goal of introducing more data sources is to help overcome the limitations of each individual data source. An extended
+                kalman filter is one method for combining these three data methods.</br>
+                &emsp;&emsp;For this project we drove Northeastern's autonomous vehicle around Boston to collect real data. We intentionally
+                drove the vehicle amongst tall buildings to provide inaccurate GPS data and drove the vehicle in multiple laps around a
+                rotary to try and provide inaccurate accelerometer and steering angle data. This data collection methodology was done to test the worst case
+                scenarios and see how and if an Extended Kalman Filter with the Ackermann Steering Model can overcome these flaws.
+                </br></br></br></p>
               </div>
             </div>
           </div>
@@ -203,7 +212,11 @@
           <div class="col-md-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-xs-12">
               <div class="project text-left">
-                <p>&emsp;&emsp;</br>
+                <p>&emsp;&emsp;The focus of my work on this project was with the ROS implementation of the kalman filter. Initially I worked to extend the
+                open source kalman filter package for ROS to work with our dataset. I then went on to optimize the parameters of our kalman filter setup
+                and run tests using different data sources as inputs to try and compare the impact each data source has on calculating an accurate state
+                estimate for the autonomous vehicle.</br>
+                &emsp;&emsp;The above video shows our final presentation that we gave to our Robotics Sensing and Navigation Course.
                 </p>
               </div>
             </div>

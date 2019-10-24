@@ -46,11 +46,11 @@
 
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
-              <li class="nav-item active">
+              <!--<li class="nav-item active">
                 <a class="nav-link" href="/#sliders">
                   Home
                 </a>
-              </li>
+              </li>-->
               <li class="nav-item">
                 <a class="nav-link" href="/#robots">
                   Robots
@@ -199,7 +199,7 @@
                 human firefighters can reach the area.</br>
                 &emsp;&emsp;With this project we aimed to research the use of swarm robotic motion algorithms in the detection and response to forrest fires. To simplify
                 the problem we used small mobile ground robots to replace large drones, a flashlight to replace a fire, and an eye-in-the-sky vision system to replace GPS and
-                provide location data to each robot. However, many of the lesons and motion planning software developed for this system can be easily extrapolated for drone
+                provide location data to each robot. However, many of the lesons and motion planning software developed for this system can be extrapolated for drone
                 use in a real-world larger setting.
                 </br></br></br></p>
               </div>
@@ -216,7 +216,14 @@
           <div class="col-md-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-xs-12">
               <div class="project text-left">
-                <p>&emsp;&emsp;</br>
+                <p>&emsp;&emsp;One of my main responsibilties for this project was writing the low-level software for each individual robot.
+                This included sampling data from the onboard light sensors and controlling each individual motor
+                in order to carryout the received velocity commands.</br>
+                &emsp;&emsp;My second main task was to develop the eye-in-the-sky "GPS" system. An Xbox Kinect sensor was suspended above the
+                work area of the robots capturing RGBD data of the entire environment. I processed the RGB image using the OpenCV library to calculate
+                a pixel location for the center of each robot. The depth image was used to convert these to real-world position coordinates. These coordinates
+                were then sent over the ROS network to each robot. In a large scale implementation of this project the vision system could easily be
+                swapped out with a GPS chip as long as the GPS driver publishes the same position message type.</br>
                 </p>
               </div>
             </div>
