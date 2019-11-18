@@ -97,7 +97,7 @@ body {
 .direction-l .flag:before,
 .direction-r .flag:before {
   position: absolute;
-  top: 64%;
+  top: 47%;
   right: -42px;
   content: ' ';
   display: block;
