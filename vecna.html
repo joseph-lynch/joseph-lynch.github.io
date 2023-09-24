@@ -43,11 +43,11 @@
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-
+          <!-- https://stackoverflow.com/questions/24360068/why-arent-my-href-links-working Fix home link issue -->
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
-<!--              <li class="nav-item active">
-                <a class="nav-link" href="/#sliders">
+              <!--<li class="nav-item active">
+                <a class="nav-link" href="index.html">
                   Home
                 </a>
               </li>-->
@@ -130,7 +130,7 @@
 
       <!-- sliders -->
       <!-- TODO: Remove carousel + possibly replace it with https://andrewbanchich.github.io/spectral-jekyll-theme/# or https://karolhausman.github.io/-->
-      <div id="sliders">
+      <div id="banner">
         <div class="full-width">
           <!-- light slider -->
           <div id="light-slider" class="carousel slide">
@@ -139,9 +139,9 @@
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
                     <!-- Picture 1920 x 200 - Possibly bump up to 250 -->
-                    <img src="img/banner/CES_banner_1.png" alt="">
+                    <img src="img/banner/vecna_amr_fleet2.jpeg" alt="">
                     <div class="carousel-caption">
-                      <h4 class="slide-title animated fadeInDown" align="left"><span>CES 2020 SHOWCASE</span></h4></div>
+                      <h4 class="slide-title animated fadeInDown" align="left"><span>VECNA ROBOTICS AMRs FOR WAREHOUSES</span></h4></div>
                   </div>
                 </div>
               </div>
@@ -159,19 +159,13 @@
     <div id="overview" class="section-padding">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-md-6 col-xs-12">
-            <div class="iframe-container text-center">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/1gOLTM2Rejk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
+          <div class="col-lg-12 col-md-6 col-xs-12">
             <div class="project block text-center">
               <h5></br>Project Overview</h5>
-              <p><strong>Project Type:</strong>&emsp;Research</br>
-              <strong>Organization:</strong>&emsp;Robotics and Intelligent Vehicles Research (RIVeR) Lab</br>Analog Devices</br>Ascend Robotics</br>
-              <strong>Robot Used:</strong>&emsp;Toyota Human Support Robot (HSR)</br>
-              <strong>Software Used:</strong>&emsp;C++ | Python | ROS</br>
-              <strong>Date(s):</strong>&emsp;Oct 2019 - Jan 2020</br></br></p>
+              <strong>Organization:</strong>&emsp;Vecna Robotics</br>
+              <strong>Positions Held:</strong>&emsp;Robotics Software Engineer | Interim Team Lead | Senior Robotics Software Engineer and Tech Lead</br>
+              <strong>Software Used:</strong>&emsp;C++ | Python</br>
+              <strong>Date(s):</strong>&emsp;Aug 2020 - Present</br></br></p>
             </div>
           </div>
         </div>
@@ -182,20 +176,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Project Abstract</h1>
+            <h1 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Role Summary</h1>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-xs-12">
               <div class="project block text-left">
-                <p>&emsp;&emsp;Analog Devices has recently developed new time-of-flight chips that can be used in a number of devices in support of
-                  many different applications. One of these applications is a time-of-flight based distance sensor that can be used for robotic
-                  navigation and manipulation tasks. In order to showcase the usefulness of their technology in this type of application at CES 2020,
-                  Analog Devices partnered with Northeastern's RIVeR Lab to leverage the lab's robotics research to showcase the Pico depth sensor.</br>
-                  &emsp;&emsp;The chosen demo consisted of integrating the Pico sensor with existing sensors on Toyota's Human Support Robot (HSR). The
-                  data from this additional sensor was used to identify objects on a table that were then picked up and carried across an area while
-                  avoiding dynamic obstacles in order to hand the object off to a human. This demo was run across 4 days of CES 2020.
+                <p>&emsp;&emsp;As a senior robotics software engineer and tech lead for the robot software team my role was
+                to do what was needed to ensure high quality technical releases and a solid technical road map. This included
+                a variety of work ranging from writing and testing software to designing features to working with our deployment
+                team at customer sites to improve the performance of our robotic systems to increase pallet throughput and
+                increase value for our customers.
                 </br></br></br></p>
               </div>
             </div>
@@ -204,22 +196,34 @@
 
         <div class="row">
           <div class="col-md-12">
-            <h1 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Personal Contributions</h1>
+            <h1 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Personal Contributions and Key Results</h1>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-xs-12">
               <div class="project text-left">
-                <p>&emsp;&emsp;In this project I worked on adapting current research at Northeastern University to accomplish the specfic goals
-                  of Analog Devices for this demo as well as took responsibility for the continuous operation of the demo across 4 days
-                  of exhibitions in Las Vegas at CES 2020. My development tasks included modifying Toyoyta's existing software stack to
-                  fuse the data from the Analog Devices sensor with the existing sensors on the HSR. I also worked to develop the
-                  high-level behavior of the robot to pick up the closest object on a table, navigate across a room around obstacles, and hand the
-                  object off to a human.</br>
-                  &emsp;&emsp;While at the CES exhibition I was responsible for running the demo and training Analog Devices employees to assist with
-                  this task to ensure a consistently running demonstration. I also interfaced with potential customers and investors
-                  to explain the underlying technology developed by Analog Devices along with its usefulness for new applications.
+                <p>&emsp;&emsp;Was on a 5-person tiger team that improved the overall performance of our AMRs by 135% over a 6-month period.
+                  As part of this effort I designed the obstacle persistence functionality to ensure safety when traveling at
+                  higher speeds and improved the efficiency of our lidar filtering pipeline to reduce the CPU by 85%.
+                </br></br>&emsp;&emsp;As tech lead I identified several focus areas that were impacting our ability to produce and deployment
+                a robust product. These focus areas included a lack of calibration procedures for our robots, a testing strategy that was
+                letting too many bugs make it to a client site and a lack of simulation tools which made it difficult for dev engineers
+                to thoroughly test software changes. To address these short comings the following actions were taken:
+                </br>&emsp;&emsp;&emsp;&emsp; * Wrote automated calibration scripts and worked with the manufacturing team to provide training
+                and incorporated feedback on how to improved these scripts.
+                </br>&emsp;&emsp;&emsp;&emsp; * Worked with the validation team to define a new nightly test mock run that more closely
+                resembled workflows from real customer sites and increase the test from a 20-pallet/2 robot shuffle to a 43-pallet/6 robot
+                shuffle. This has significantly increased the miles driven by our robots on each release candidate increasing our
+                confidence in the relability of the software before shipping to customer sites.
+                </br>&emsp;&emsp;&emsp;&emsp; * Produced a proof of concept demo of a simulation tool that matches our current products.
+                This tool has been adopted by members of the team to increase testing efficiency and has shown enough value to
+                management in order to dedicate multiple people to work on improving this tool further.
+                </br></br>&emsp;&emsp;Spent time working closely with the deployment team both on site and remotely analyzing and improving
+                the performance of our robot fleet at customer sites which produced several key results:
+                </br>&emsp;&emsp;&emsp;&emsp; * Analyzed data to identify system bottlenecks and improve pallet throughput by 39% at an automotive parts manufacturer
+                </br>&emsp;&emsp;&emsp;&emsp; * Addressed safety concerns and completed customer acceptance testing at a retail warehouse customer
+                </br>&emsp;&emsp;&emsp;&emsp; * Filtered LiDAR data to remove hits from dust to reduce robot stop time by 52% and support touches by 82%
                 </p>
               </div>
             </div>
